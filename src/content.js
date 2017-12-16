@@ -19,7 +19,7 @@ export default {
                 '',
             ],
         },
-        graphicDesign: { 
+        graphicDesign: {
             images: [
                 '',
                 '',
