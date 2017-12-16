@@ -2,21 +2,19 @@ export default {
     pages: {
         acting: {
             videos: [
-                '',
-                '',
-            ]
+                'https://d3ddf22101763f147c3f-ec134b3c4927d430a09a9d4293996de7.ssl.cf2.rackcdn.com/1211899-39811_SD.mp4',
+                'https://d3ddf22101763f147c3f-ec134b3c4927d430a09a9d4293996de7.ssl.cf2.rackcdn.com/1233596-40037_SD.mp4',
+            ],
+            text: `Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum `
         },
         art: {
             images: [
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
+                'https://i.imgur.com/wMkdxU6.jpg',
+                'https://i.imgur.com/yAbiQCn.jpg',
+                'https://i.imgur.com/4dMxwKv.jpg',
+                'https://i.imgur.com/FmshcRe.jpg',
+                'https://i.imgur.com/xFlu99M.jpg',
+                'https://i.imgur.com/KVF3Dad.jpg',
             ],
         },
         graphicDesign: {
@@ -33,10 +31,10 @@ export default {
             ],
         },
         home: {
-            image: ''
+            image: 'https://i.imgur.com/3fFSRDd.jpg'
         },
         personal: {
-            image: '',
+            image: 'https://i.imgur.com/lrNmvl4.jpg',
             text: `Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum 
             Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum 
             Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum Lorum Ipsum 

@@ -4,14 +4,20 @@ import content from '../content';
 export default class ActingPage extends Component {
     render() {
         const videoUrls = content.pages.acting.videos;
-        const videos = videoUrls.map((imgF, i) =>
-            <figure key={i}>
-                <img src={imgF || grey} alt={`Acting Picture ${i + 1}`} />
-            </figure>);
+        const text = content.pages.acting.text;
+        const videos = videoUrls.map((url, i) =>
+            <video key={i} controls src={url}>
+                Your browser does not support the video tag.
+            </video>);
         return (
-            <article className="acting">
-                {videos}
-            </article>
+            <div className="acting">
+                <section className="text">
+                    {text}
+                </section>
+                <section className="videos">
+                    {videos}
+                </section>
+            </div>
         );
     }
 }

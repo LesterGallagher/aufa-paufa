@@ -6,11 +6,11 @@ export default class HomePage extends Component {
     render() {
         const image = content.pages.home.image;
         return (
-            <article className="home">
+            <div className="home">
                 <figure>
                     <img src={image || grey} alt="Home Image" className="home-image" />
                 </figure>
-            </article>
+            </div>
         );
     }
 }

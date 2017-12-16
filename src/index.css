@@ -87,3 +87,14 @@ input[type=submit], button {
 .danger {
     color: red;
 }
+
+.acting video {
+    width: 100%;
+    height: 600px;
+    height: auto;
+    margin-bottom: 70px;
+}
+
+main p {
+    white-space: pre-wrap;
+}

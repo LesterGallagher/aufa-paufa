@@ -17,9 +17,9 @@ export default class PhotographyPage extends Component {
         });
 
         return (
-            <article className="photography" >
+            <div className="photography" >
                 {imageGallery}
-            </article>
+            </div>
         );
     }
 }

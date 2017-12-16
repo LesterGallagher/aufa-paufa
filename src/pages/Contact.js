@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class ContactPage extends Component {
     render() {
         return (
-            <article className="art">
+            <div className="contact ">
                 <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzLgJcEAuka1rIy3TLVKeYIkPTWuGoeYxN9nUlCvGJAwUJNNvBs/exec">
                     <input type="text" name="name" id="name" placeholder="Your Name" />
                     <small class="danger" id="email-invalid" style={{ display: 'none' }}>Email is Invalid</small>
@@ -15,7 +15,7 @@ export default class ContactPage extends Component {
                     <h2><em>Thank You, </em>
                     I will get back to you soon</h2>
                     </div>
-            </article>
+            </div>
         );
     }
 }

@@ -8,14 +8,14 @@ export default class PersonalPage extends Component {
         const image = content.pages.personal.image;
         const text = content.pages.personal.text;
         return (
-            <article className="personal">
+            <div className="personal">
                 <figure>
                     <img src={image || grey} alt="Personal Picture" />
                 </figure>
                 <p>
                     {text || 'Sorry There\'s nothing here'}
                 </p>
-            </article>
+            </div>
         );
     }
 }

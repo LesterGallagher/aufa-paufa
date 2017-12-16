@@ -5,14 +5,20 @@ import content from '../content';
 export default class ArtPage extends Component {
     render() {
         const imgFiles = content.pages.art.images;
-        const images = imgFiles.map((img, i) =>
-            <figure className="col-4" key={i} >
+        const imageGallery = [];
+        let counter = 0;
+        imgFiles.forEach((img, i) => {
+            if ((i % 3) === 0) {
+                imageGallery.push(<div key={counter++} class="clearfix"></div>);
+            }
+            imageGallery.push(<figure className="col-4" key={counter++} >
                 <img src={img || grey} alt={`Art Picture ${i + 1}`} />
             </figure>);
+        });
         return (
-            <article className="art">
-                {images}
-            </article>
+            <div className="art">
+                {imageGallery}
+            </div>
         );
 
     }
