@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "license": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007",
-  "homepage": "https://lestergallagher.github.io/aufa-paufa",
+  "homepage": "https://lestergallagher.github.io/",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
