@@ -40,6 +40,7 @@ a:active {
 
 a.active {
     color: rgb(220, 104,46);
+    pointer-events: none;
 }
 
 a.active:hover {

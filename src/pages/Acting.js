@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import grey from './grey.png';
 import content from '../content';
+
 export default class ActingPage extends Component {
     render() {
         const videoUrls = content.pages.acting.videos;
@@ -12,7 +13,7 @@ export default class ActingPage extends Component {
         return (
             <div className="acting">
                 <section className="text">
-                    {text}
+                    {text || 'Sorry There\'s nothing here'}
                 </section>
                 <section className="videos">
                     {videos}
