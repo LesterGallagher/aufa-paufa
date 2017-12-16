@@ -1,0 +1,75 @@
+.App {
+    text-align: center;
+}
+
+.App-header {
+    padding-bottom: 40px;
+}
+
+.App-title {
+    font-size: 26px;
+    min-width: 280px;
+}
+
+.App-title-text {
+    border-bottom: 3px solid black;
+    padding: 7px 14px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline-block;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+        }
+
+a:hover {
+    color: rgb(92, 92, 92);
+}
+
+a:active {
+    color: rgb(184, 184, 184);
+}
+
+a.active {
+    color: rgb(220, 104,46);
+}
+
+a.active:hover {
+    color: rgb(235, 173, 120);
+}
+
+a.active:active {
+    color: rgb(250, 200, 160);
+}
+
+
+nav ul li::after {
+    content: "o";
+    margin: 0 5px;
+}
+
+nav ul li:last-of-type::after {
+    content: none;
+}
+
+article {
+    animation: fade-in 1s linear;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,16 @@
+.personal figure {
+    display: block;
+}
+
+@media screen and (min-width: 500px) {
+    .personal figure {
+        width: 33%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 501px) {
+    .personal figure {
+        padding: 10px;
+    }
+}

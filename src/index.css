@@ -1,0 +1,89 @@
+textarea {
+    font-family: unset;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: unset;
+}
+
+img {
+    width: 100%;
+}
+
+figure {
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    padding: 5px;
+    font-size: 0;
+}
+
+.container {
+    width: 800px;
+    padding: 10px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.col-4 {
+    width: 33.333%;
+    float: left;
+}
+
+.row {
+    clear: both;
+}
+
+.clearfix {
+    clear: both;
+}
+
+form {
+    text-align: left;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit], button {
+    color: white;
+    background: rgb(221, 221, 221);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+
+@media screen and (max-width: 660px) {
+    .container {
+        padding: 5px;
+    }
+}
+
+.danger {
+    color: red;
+}
