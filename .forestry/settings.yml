@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/content.json
   label: Content
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
